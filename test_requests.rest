@@ -1,0 +1,24 @@
+GET http://localhost:3001/api/contacts
+
+### 
+GET http://localhost:3001/api/contacts/1
+
+###
+DELETE http://localhost:3001/api/contacts/1
+
+###
+POST http://localhost:3001/api/contacts
+Content-Type: application/json
+
+{
+  "name":"John Doe",
+  "number":"0404 210 922"
+}
+
+###
+POST http://localhost:3001/api/contacts
+Content-Type: application/json
+
+{
+  "name":"John Doe"
+}
